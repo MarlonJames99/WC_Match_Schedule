@@ -14,7 +14,8 @@ body {
     background-color: #121214;
     background-image: url(../img/bg.svg);
     background-position-x: center;
-    background-position-y: 55.6%;
+    background-position-y: center;
+    background-size: cover;
 }
 
 body * {
@@ -32,7 +33,13 @@ header {
 }
 
 header img {
-    width: 95px;
+    width: 110px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .card {
@@ -49,7 +56,7 @@ header img {
     justify-content: center;
     align-items: center;
     padding: 8px 16px;
-    border: 1px solid #746615;
+    border: 1px solid #F7DD43;
     border-radius: 6px;
     width: fit-content;
     margin-inline: auto;
