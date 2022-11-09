@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
 
+html {
+    font-size: 62.5%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -29,58 +33,58 @@ body * {
 #app {
     width: fit-content;
     margin: auto;
-    padding-block: 52px;
+    padding-top: 5.2rem;
 }
 
 header {
-    margin-bottom: 52px;
+    margin-bottom: 5.2rem;
     text-align: center;
 }
 
 header img {
-    width: 130px;
+    width: 13rem;
 }
 
 #cards {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 3.2rem;
 }
 
 .card {
-    padding: 32px 23px;
+    padding: 3.2rem 2.3rem;
     text-align: center;
     background-color: var(--card-bg-color);
-    border-bottom: 2px solid var(--card-details-color);
-    border-radius: 6px;
+    border-bottom: 0.2rem solid var(--card-details-color);
+    border-radius: 0.6rem;
 }
 
 .card h2 {
-    font-size: 22px;
+    font-size: 2.2rem;
     display: flex;
-    gap: 16px;
+    gap: 1.6rem;
     justify-content: center;
     align-items: center;
-    padding: 8px 16px;
-    border: 1px solid var(--card-details-color);
-    border-radius: 6px;
+    padding: 0.8rem 1.6rem;
+    border: 0.1rem solid var(--card-details-color);
+    border-radius: 0.6rem;
     width: fit-content;
     margin-inline: auto;
-    margin-bottom: 53px;
+    margin-bottom: 5.3rem;
     color: var(--card-details-color);
 }
 
 .card h2 span {
     color: var(--time-color);
-    font-size: 12px;
+    font-size: 1.2rem;
     text-transform: uppercase;
 }
 
 .card ul {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    width: 250px;
+    gap: 2.4rem;
+    width: 25rem;
 }
 
 .card ul li {
@@ -90,18 +94,18 @@ header img {
 }
 
 .card ul li+li {
-    padding-top: 24px;
-    border-top: 1px solid var(--match-separator-color);
+    padding-top: 2.4rem;
+    border-top: 0.1rem solid var(--match-separator-color);
 }
 
 .card ul li img {
-    border: 1px solid var(--match-separator-color);
+    border: 0.1rem solid var(--match-separator-color);
     border-radius: 50%;
 }
 
 .card ul li strong {
     font-weight: 900;
-    font-size: 28px;
+    font-size: 2.8rem;
     line-height: 125%;
     color: var(--time-color);
 }
@@ -125,7 +129,7 @@ header img,
 
 @keyframes appear {
     0% {
-        transform: translateX(-50px);
+        transform: translateX(-5rem);
         opacity: 0;
     }
     100% {
