@@ -33,11 +33,11 @@ body * {
 #app {
     width: fit-content;
     margin: auto;
-    padding-top: 5.2rem;
+    padding-block: 5.2rem;
 }
 
 header {
-    margin-bottom: 5.2rem;
+    margin-bottom: 3.5rem;
     text-align: center;
 }
 
