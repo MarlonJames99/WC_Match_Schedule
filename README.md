@@ -7,7 +7,7 @@ This project a match schedule for the 2022 FIFA World Cup that will be played in
 
 It was developed in the event "Next Level Week - Copa", more specifically the "Explorer" trail, presented by Rocketseat in October 2022.
 
-### App link: 
+### App link: https://wc-match-schedule-marlonjames.vercel.app
 
 ## Tecnologies:
 <div style="display: inline_block">
